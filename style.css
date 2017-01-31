@@ -13,43 +13,53 @@ body {
 	font-size: 36px;
 	font-family: Courier;
 	color: white;
-	position: absolute;
-	left: 44%;
-	top: 45%;
+	width: 80%;
+	text-align: center;
+	margin: 0 auto;
 
+}
+
+#bar1 {
+	position: absolute;
+	top: 45%;
+	width: 100%;
 }
 
 #rgb {
-	width: 12vw;
-	height: 5vw;
+	width: 130px;
+	height: 54px;
 	border: 1px solid black;
-	position: absolute;
 	display: flex;
 	justify-content: space-around;
-	left: 44%;
-	top: 55%;
 	border-radius: 3px;
+	margin: 0 auto;
+}
+
+#bar2 {
+	position: absolute;
+	top: 55%;
+	width: 100%;
 }
 
 #r, #g, #b {
-	margin-top: .4vw;
+	margin-top: 4px;
 	border: 1px solid black;
 	text-align: center;
 	line-height: 3em;
-	width: 3vw;
-	height: 4vw;
+	width: 33px;
+	height: 44px;
 	border-radius: 3px;
 }
 
 #dragR, #dragG, #dragB {
 
 	position: relative;
-	margin-top: .4vw;
+	margin-top: 4px;
 	border: 1px solid black;
 	text-align: center;
 	line-height: 3em;
-	width: 3vw;
-	height: 4vw;
+	width: 33px;
+	height: 44px;
 	border-radius: 3px;
 	right: 0.09vw;
     bottom: 0.48vw;
