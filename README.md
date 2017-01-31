@@ -1,0 +1,4 @@
+<h3>Hex Clock</h3>
+<h4>A simple but attractive clock app</h4>
+<p>This project displays the current time in the center of the screen, formatted to look like a hex color code. The background color changes with the time, though it interprets the time code as a full range rather than the limited set of colors that a literal interpretation would provide. As the background color changes, the text and line colors also change to complement the background.</p>
+<p>By default, the hour corresponds to the red value, the minute corresponds to the green value, and the second corresponds to the blue value. These defaults can be switched with the drag and drop option cards below the clock itself.</p>
